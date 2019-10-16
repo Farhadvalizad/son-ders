@@ -1,0 +1,80 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.border {
+  border: 10px solid black;
+  border-radius: none;
+  padding: 100px;
+}
+
+.border i {
+  font-size: 70px;
+}
+
+.icon {
+  padding: 4px;
+}
+
+.border p {
+  font-weight: 900;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 576px) {
+  .media {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .media {
+    display: none;
+  }
+}
+
+#create .img-holder {
+  position: relative;
+  overflow: hidden;
+}
+
+#create .img-holder .overlay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  background: white;
+}
+
+#create .img-holder:hover .overlay {
+  opacity: 0.5;
+}
+
+#create .wit {
+  width: 100%;
+}
+/*# sourceMappingURL=canvas.css.map */
